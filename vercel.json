@@ -3,12 +3,7 @@
   "github": {
     "silent": true
   },
-  "builds": [
-    {
-      "src": "index.cjs",
-      "use": "@vercel/node"
-    }
-  ],
+  
   "rewrites": [
     {
       "source": "/(.*)",
