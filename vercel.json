@@ -3,10 +3,10 @@
   "github": {
     "silent": true
   }, 
-  "builds": [
+    "builds": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
+      "src": "index.cjs",
+      "use": "@vercel/node"
     }
   ],
   
