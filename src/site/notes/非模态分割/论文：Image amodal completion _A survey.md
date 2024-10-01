@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/非模态分割/论文：Image amodal completion _A survey/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"//image-amodal-completion-a-survey/","tags":["gardenEntry"]}
 ---
 
 ## 1. Introduction
