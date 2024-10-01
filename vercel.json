@@ -2,18 +2,25 @@
   "name": "comment",
   "github": {
     "silent": true
-  }, 
-    "builds": [
+  },
+  "builds": [
     {
       "src": "index.cjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
     }
   ],
-  
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "index.cjs"
+      "src": "/api/(.*)",
+      "dest": "index.cjs"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
     }
   ]
 }
