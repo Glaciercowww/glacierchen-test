@@ -3,7 +3,7 @@
 ---
 
 ## 1. Introduction
-e
+
 occlusion handling problem
 
 ## 2.Taxonomy of problems
