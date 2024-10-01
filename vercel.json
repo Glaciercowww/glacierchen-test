@@ -1,12 +1,4 @@
-
 {
-
-
-  //index.js
-const Waline = require('@waline/vercel');
-module.exports = Waline();
-
-//vercel.json
   "builds": [
     {
       "src": "index.js",
