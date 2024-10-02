@@ -1,41 +1,9 @@
-# Waline Example
+# Digital Obsidian Garden
+This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
+See the README in the plugin repo for information on how to set it up.
 
-This directory is a brief example of a [Waline](https://waline.js.org/) app that can be deployed with Vercel and zero configuration.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
 
-## Deploy Your Own
-
-Deploy your own Waline project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/walinejs/waline/tree/main/example)
-
-### How We Created This Example
-
-```js
-//index.js
-const Waline = require('@waline/vercel');
-module.exports = Waline();
-
-//vercel.json
-{
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "index.js"
-    }
-  ]
-}
-```
-
-### Deploying From Your Terminal
-
-You can deploy your new Waline project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-vercel
-```
+---
+## Docs
+Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
